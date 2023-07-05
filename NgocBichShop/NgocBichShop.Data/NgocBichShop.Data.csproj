@@ -55,9 +55,12 @@
     <Compile Include="Infrastructure\Disposable.cs" />
     <Compile Include="Infrastructure\IDbFactory.cs" />
     <Compile Include="Infrastructure\IRepository.cs" />
+    <Compile Include="Infrastructure\IRepository.cs" />
     <Compile Include="Infrastructure\IUnitOfWork.cs" />
     <Compile Include="Infrastructure\RepositoryBase.cs" />
     <Compile Include="Infrastructure\UnitOfWork.cs" />
+    <Compile Include="Infrastructure\UnitOfWork.cs" />
+    <Compile Include="Migrations\202307050536452_InitialDB.cs" />
     <Compile Include="Migrations\202307050536452_InitialDB.cs" />
     <Compile Include="Migrations\202307050536452_InitialDB.designer.cs">
       <DependentUpon>202307050536452_InitialDB.cs</DependentUpon>
@@ -68,17 +71,25 @@
     <Compile Include="Repositories\FooterRepository.cs" />
     <Compile Include="Repositories\MenuGroupRepository.cs" />
     <Compile Include="Repositories\MenuRepository.cs" />
+    <Compile Include="Repositories\MenuRepository.cs" />
+    <Compile Include="Repositories\OrderDetailRepository.cs" />
     <Compile Include="Repositories\OrderDetailRepository.cs" />
     <Compile Include="Repositories\OrderRepository.cs" />
+    <Compile Include="Repositories\OrderRepository.cs" />
     <Compile Include="Repositories\PageRepository.cs" />
+    <Compile Include="Repositories\PostCategoryRepository.cs" />
     <Compile Include="Repositories\PostCategoryRepository.cs" />
     <Compile Include="Repositories\PostRepository.cs" />
     <Compile Include="Repositories\PostTagRepository.cs" />
     <Compile Include="Repositories\ProductCategoryRepository.cs" />
     <Compile Include="Repositories\ProductRepository.cs" />
     <Compile Include="Repositories\SlideRepository.cs" />
+    <Compile Include="Repositories\SlideRepository.cs" />
+    <Compile Include="Repositories\SupportOnlineRepository.cs" />
     <Compile Include="Repositories\SupportOnlineRepository.cs" />
     <Compile Include="Repositories\SystemConfigRepository.cs" />
+    <Compile Include="Repositories\SystemConfigRepository.cs" />
+    <Compile Include="Repositories\TagRepository.cs" />
     <Compile Include="Repositories\TagRepository.cs" />
     <Compile Include="Repositories\VisitorStatisticRepository.cs" />
   </ItemGroup>
